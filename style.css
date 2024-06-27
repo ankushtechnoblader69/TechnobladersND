@@ -1,0 +1,62 @@
+ .h1{
+ text-align:centre;
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 5px 5px;
+    font-size:15px;
+ }
+ 
+ button {
+ background-color: #04AA6D;
+ border: none;
+ color: white;
+ padding: 10px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 0px 0px;
+ cursor: pointer;
+ }
+ button {border-radius: 10px;}
+ .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Style the dropdown button */
+        .dropdown-btn {
+            padding: 10px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Style the dropdown content (hidden by default) */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        /* Style the dropdown links */
+        .dropdown-content a {
+            color: #333;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Change color on hover */
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        /* Show the dropdown content when the button is hovered over */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
