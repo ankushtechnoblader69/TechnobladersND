@@ -64,3 +64,6 @@ body {
         .dropdown:hover .dropdown-content {
             display: block;
         }
+copyright {
+ font-color:white
+}
